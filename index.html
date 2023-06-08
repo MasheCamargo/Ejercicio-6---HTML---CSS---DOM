@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML+CSS+DOM</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h2>Empleado del mes</h2>    
+    <table id="salesTable">
+    <tr>
+        <th>Producto</th>
+        <th>Juana</th>
+        <th>Pedro</th>
+    </tr>
+    <tr>
+        <td>Aqua</td>
+        <td><input type="number" id="juanaAqua"></td>
+        <td><input type="number" id="pedroAqua"></td>
+    </tr>
+    <tr>
+        <td>Emoción</td>
+        <td><input type="number" id="juanaEmocion"></td>
+        <td><input type="number" id="pedroEmocion"></td>
+    </tr>
+    <tr>
+        <td>Alegría</td>
+        <td><input type="number" id="juanaAlegria"></td>
+        <td><input type="number" id="pedroAlegria"></td>
+    </tr>
+    <tr>
+        <td>Frescura</td>
+        <td><input type="number" id="juanaFrescura"></td>
+        <td><input type="number" id="pedroFrescura"></td>
+    </tr>
+    </table>
+
+<button onclick="calcularVentas()">Calcular Ventas</button>
+
+<h2>Resultados</h2>
+    <div id="resultado"></div>
+</body>
+</html>
